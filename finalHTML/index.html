@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do you like cats?</title>
+</head>
+<body style="text-align:center; background-color: rgb(116, 128, 191); color:rgb(73, 0, 137);">
+    <p>
+        <h1 style="color: rgb(70, 22, 109);">Do you like <i>cats?</i></h1> <!-- title -->
+        <h3 style="color: rgb(255, 255, 255);">As said by someone probably:</h3> 
+        <blockquote style="color: rgb(255, 255, 255);"> "Cats are cool"</blockquote> <!-- quote -->
+        <img src="ears.png" width="200">
+    </p>
+    <form>
+        <p>
+            <!-- cool cats Q: y/n -->
+            <p>Do you think cats are cool?</p>
+            <input type="radio" id="yes" name="cool" required value="yes"> <!-- Yes -->
+            <label for="yes" style="color: rgb(26, 255, 20);"><b>Yes</b></label>
+            <input type="radio" id="no" name="cool" required value="no"> <!-- No -->
+            <label for="no" style="color:rgb(217, 3, 3)">No</label>
+            <input type="radio" id="yess" name="cool" required value="yess"> <!-- Diff Yes-->
+            <label for="yess" style="color:rgb(31, 225, 255)"><b>Yes but different</b></label>
+        </p>
+        <p>
+            <!-- cute cats Q: dropdown -->
+            <p><label for="qt"><strong>Is Kitty Cute?</strong></label></p>
+            <select id="qt" name="cuteness" required>
+            <p><option value="cute">very cute :3 </option></p>
+            <p><option value="meh">meh :/ </option></p>
+            <p><option value="horrid">horrid beast >:c </option></p>
+            </select>
+        </p>
+        <p>
+            <!-- What do you like most: text-->
+             <p><label for="kty"><em>What do you like most about Cats?</em></label></p>
+             <p><input type="text" placeholder="type here" name="kitty compliments" id="kty" required></p>
+        </p>
+        <img src="bill.png" width="200">
+        <p>
+            <p>How sleepy are you rn?</p>
+            <label for="sleep" style="color: rgb(255, 255, 255);">not at all</label><input type="range" id="sleep" min="0" max="10" value="5" name="sleep" required><label for="sleep" style="color: rgb(255, 255, 255);">im abt to pass the freak out bruh</label>
+        </p>
+        <p><input type="submit"></p>
+        <p><a href="results.html" style="color: rgb(26, 255, 20);">See results</a></p>
+    </form>
+</body>
+</html>
