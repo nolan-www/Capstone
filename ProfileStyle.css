@@ -1,0 +1,22 @@
+h1 {
+    background-color: rgb(75, 4, 4);
+    color:rgb(231, 103, 28);
+}
+h2 {
+    text-align: center;
+}
+p {
+    background-color: rgb(75, 4, 4);
+    color:rgb(231, 103, 28);
+    font-size: 200%;
+}
+.red {
+    color:red;
+}
+img {
+    width:480px;
+    float:right;
+}
+body {
+    background-color: rgb(99, 0, 20);
+}
